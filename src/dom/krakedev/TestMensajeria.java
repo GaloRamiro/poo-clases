@@ -6,8 +6,11 @@ public class TestMensajeria {
 		
 			
 		    Mensajeria sms= new Mensajeria();
+		    sms.setNombre("Galo");
+		    sms.setApodo("Alumno");
+		    
 		    sms.saludar();
-		    sms.saludarPersona("Galo", "Cisneros");
+		    sms.saludarPersona(sms.getNombre(), sms.getApodo());
 			}
 
 		}
