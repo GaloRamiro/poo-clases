@@ -1,6 +1,6 @@
 package dom.krakedev;
 
-public class Vehiculo {
+public class TestVehiculo {
 	 private String marca;
 	 private String modelo;
 	 private String anio;
