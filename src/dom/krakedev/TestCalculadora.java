@@ -7,7 +7,7 @@ public class TestCalculadora {
 
     public static void main(String[] args) {
 
-        Calculadora c1 = new Calculadora();
+        Calculadora c1 = new Calculadora(0);
 
         c1.sumar(4, 5);
         System.out.println(VERDE + "Resultado: " + c1.getResultado() + RESET);
