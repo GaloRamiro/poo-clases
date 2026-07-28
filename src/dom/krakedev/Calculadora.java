@@ -4,6 +4,9 @@ public class Calculadora {
 	// Atributo
 	private double resultado;
 	// Cosntructor
+	public Calculadora() {
+		
+	}
 	public Calculadora(double resultado) {
 		this.resultado = resultado;
 	}
