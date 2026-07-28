@@ -2,28 +2,44 @@ package dom.krakedev;
 
 public class Calculadora {
 
-    // Atributo
-    private double resultado;
+	private double numero1;
+	private double numero2;
+	private double resultado;
 
- 
-    // Getter
-    public double getResultado() {
-        return resultado;
-    }
 
-    // Setter
-    public void setResultado(double resultado) {
-        this.resultado = resultado;
-    }
+	// Constructor con parámetros
+	public Calculadora(double numero1, double numero2) {
+		this.numero1 = numero1;
+		this.numero2 = numero2;
+	}
 
-    // Métodos
-    public double sumar(double a, double b) {
-        resultado = a + b;
-        return resultado;
-    }
+	public double getNumero1() {
+		return numero1;
+	}
 
-    public double restar(double a, double b) {
-        resultado = a - b;
-        return resultado;
-    }
+	public void setNumero1(double numero1) {
+		this.numero1 = numero1;
+	}
+
+	public double getNumero2() {
+		return numero2;
+	}
+
+	public void setNumero2(double numero2) {
+		this.numero2 = numero2;
+	}
+
+	public double getResultado() {
+		return resultado;
+	}
+
+	public double sumar() {
+		resultado = numero1 + numero2;
+		return resultado;
+	}
+
+	public double restar() {
+		resultado = numero1 - numero2;
+		return resultado;
+	}
 }
