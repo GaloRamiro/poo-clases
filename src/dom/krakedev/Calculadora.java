@@ -6,9 +6,6 @@ public class Calculadora {
 	private double numero2;
 	private double resultado;
 
-	// Constructor vacío
-	public Calculadora() {
-	}
 
 	// Constructor con parámetros
 	public Calculadora(double numero1, double numero2) {
